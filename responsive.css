@@ -1,0 +1,144 @@
+@media screen and (max-width : 1500px){
+    .myimage img {
+        height: 27vh;
+    }
+    .about-main img {
+        height: 25vh;
+    }
+}
+@media screen and (max-width : 1250px) {
+    .bttn{
+        margin-top: 2rem;
+    }
+    .home{
+        height: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+     .socials{
+        flex-direction: row;
+        margin-left: 0;
+        padding-top: 0;
+        justify-content: space-around;
+        width: 80%;
+    } 
+    .myimage{
+        margin-left: 0px;
+    }
+    .about-text{
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+    .myimage img{
+        height: 20vh;
+    }
+    .about{
+        height: auto;
+    }
+    .about-main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-main img{
+        margin-left: 0;
+        width: 80%;
+        height: 52vh;
+        margin-top: 2rem;
+    }
+    .about-details{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        width: 80%;
+    }
+    .user{
+        margin-top: 2rem;
+    }
+    .skills{
+        height: auto;
+    }
+    .skill-start{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill-start img{
+        margin-right: 0;
+        width: 80%;
+    }
+    .skill-percent{
+        width: 80%;
+        margin-left: 0;
+    }
+    .myprojects{
+        margin: 0;
+    }
+    .projects{
+        height: auto;
+    }
+    .inner{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .inner a{
+        margin:auto
+    }
+    .myprojects a img{
+        /* width: 75vw; */
+        width: 37vw;
+    }
+    .achievements{
+        height: auto;
+    }
+    .achievements-start{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .achievements-start img{
+        margin-left: 0;
+        
+        width: 56vw;
+        height: 43vh;
+    }
+    .achievements-text{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: 80vw;
+    }
+    .achievements-text ul{
+        width: auto;
+    }
+    .coding-profiles-heading{
+        margin-top: 2rem;
+    }
+    .judges a img{
+        height: 5vh;
+    }
+    .submitbtn{
+        /* left: 37vw; */
+        left: 46vw;
+    }
+}
+@media screen and (max-width : 800px){
+    .about-main img{
+        height: 30vh;
+    }
+    .inner{
+        flex-direction: column;
+    }
+    .myprojects a img{ 
+        width: 75vw;
+    }
+    .achievements-start img{
+        width: 53vw;
+        height: 24vh;
+    }
+    .submitbtn{
+        left: 40vw;
+    }
+}
