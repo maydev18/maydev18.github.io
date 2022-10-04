@@ -141,4 +141,7 @@
     .submitbtn{
         left: 40vw;
     }
+    .details{
+        width: 80%;
+    }
 }
