@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); 
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
@@ -14,8 +15,6 @@ html{
 header{
     background-color: #0f0c27;
     border-bottom: 0.01rem solid gray;
-    position: fixed;
-    width: 100%;
 }
 #icon{
     color: white;
@@ -26,13 +25,9 @@ header{
     font-size: 4rem;
 }
 .home{
-    padding-top: 4rem;
-    /* background-color: #0f0c27; */
-    /* color: white; */
     height: auto;
     display: flex;
     margin-bottom: 2rem;
-    /* border-bottom: 0.01rem solid gray; */
 }
 .socials{
     display: flex;
@@ -50,8 +45,10 @@ header{
     margin-left: 9.5rem;
 }
 .about-main img{
-    height: 43vh;
-    margin-left: 10vw;
+    height: 50vh;
+    border: 2px solid white;
+    border-radius: 1rem;
+    margin-left: 10rem;
 }
 .myimage{
     margin-left: 13rem;
@@ -78,10 +75,7 @@ header{
 }
 .about{
     height: auto;
-    /* background-color: #0f0c27;
-    color: white; */
     margin-bottom: 2rem;
-    /* border-bottom: 0.01rem solid gray; */
 }
 .about-start{
     text-align: center;
@@ -112,10 +106,7 @@ header{
 }
 .skills{
     height: auto;
-    /* background-color: #0f0c27;
-    color: white; */
     margin-bottom: 2rem;
-    /* border-bottom: 0.01rem solid gray; */
 }
 .skill-start{
     display: flex;
@@ -183,20 +174,43 @@ header{
 .inner{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
-.myprojects a img{
-    height: 30vh;
-    width: 20vw;
+.mycard{
+    height: 55vh;
+    width: 19vw;
+    background-color:#033a80;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.mycard img{
+    height: 20vh;
     border-radius: 1rem;
-    margin-bottom: 1.5rem;
+    border: 1px solid black;
+}
+.mycard:hover{
+    box-shadow: 2px 2px #0d6efd;
+    transform: scale(1.06);
+}
+.card-head h2{
+    font-weight: 500;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.card-descp p{
+    font-size: medium;
 }
 .achievements{
     height: auto;
     margin-bottom: 3rem;
-    /* background-color: #0f0c27;
-    color: white; */
-    /* border-bottom: 0.01rem solid gray; */
 }
 .achievements-start img{
     width: 20%;
@@ -223,11 +237,8 @@ header{
     margin: 2rem 2rem 0 2rem;
     justify-content: space-around;
 }
-
 .contact{
     height: auto;
-    /* background-color: #0f0c27;
-    color: white; */
 }
 .input{
     display: flex;

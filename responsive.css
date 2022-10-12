@@ -2,9 +2,9 @@
     .myimage img {
         height: 27vh;
     }
-    .about-main img {
+    /* .about-main img {
         height: 25vh;
-    }
+    } */
 }
 @media screen and (max-width : 1250px) {
     .bttn{
@@ -43,8 +43,8 @@
     }
     .about-main img{
         margin-left: 0;
-        width: 80%;
-        height: 52vh;
+        width: 60%;
+        height: auto;
         margin-top: 2rem;
     }
     .about-details{
@@ -72,23 +72,20 @@
         margin-left: 0;
     }
     .myprojects{
-        margin: 0;
+        margin: 2rem;
     }
     .projects{
         height: auto;
     }
     .inner{
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
+        justify-content: space-around;
     }
-    .inner a{
-        margin:auto
-    }
-    .myprojects a img{
-        /* width: 75vw; */
-        width: 37vw;
+    .mycard{
+        height: 45vh;
+        width: 60vw;
+        margin-top: 2rem;
     }
     .achievements{
         height: auto;
@@ -101,9 +98,8 @@
     }
     .achievements-start img{
         margin-left: 0;
-        
-        width: 56vw;
-        height: 43vh;
+        width: 50%;
+        height: auto;
     }
     .achievements-text{
         margin-left: 2rem;
@@ -125,18 +121,9 @@
     }
 }
 @media screen and (max-width : 800px){
-    .about-main img{
-        height: 30vh;
-    }
-    .inner{
-        flex-direction: column;
-    }
-    .myprojects a img{ 
-        width: 75vw;
-    }
-    .achievements-start img{
-        width: 53vw;
-        height: 24vh;
+    .mycard{
+        height: auto;
+        width: 100%;
     }
     .submitbtn{
         left: 40vw;
